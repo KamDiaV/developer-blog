@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Blog</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="page">
+
+    <aside class="sidebar">
+      <div class="sidebar__cover"></div>
+
+      <div class="sidebar__profile">
+        <img src="./images/sidebar/avatar.jpg" alt="Дмитрий Валак" class="sidebar__avatar">
+
+        <h1 class="sidebar__name">Дмитрий Валак</h1>
+        <p class="sidebar__description">блог front-end разработчика</p>
+
+        <ul class="sidebar__socials">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">VK</a></li>
+          <li><a href="#">Pinterest</a></li>
+        </ul>
+      </div>
+
+      <p class="sidebar__text">Front-end разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов в создании сайтов различной сложности.</p>
+
+      <div class="sidebar__buttons">
+        <a href="#" class="sidebar__button sidebar__button--red">Мои работы</a>
+        <a href="#" class="sidebar__button sidebar__button--blue">Написать мне</a>
+      </div>
+    </aside>
+
+    <main class="content">
+
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__item">
+              <a href="#" class="header__link">Главная</a>
+            </li>
+    
+            <li class="header__item header__item--dropdown">
+              <a href="#" class="header__link">Статьи</a>
+    
+              <ul class="header__submenu">
+                <li><a href="#" class="header__submenu-link">Создание сайтов</a></li>
+                <li><a href="#" class="header__submenu-link">Интернет-маркетинг</a></li>
+                <li><a href="#" class="header__submenu-link">Продвижение видео</a></li>
+              </ul>
+            </li>
+    
+            <li class="header__item">
+              <a href="#" class="header__link">Обо мне</a>
+            </li>
+    
+            <li class="header__item">
+              <a href="#" class="header__link">Реклама</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <div class="header__right">
+          <a href="#" class="header__profile">Профиль</a>
+    
+          <form class="header__search">
+            <input 
+              type="search" 
+              class="header__search-input" 
+              placeholder="Поиск по блогу"
+            >
+          </form>
+        </div>
+      </header>
+    
+      <section class="stories">
+        <article class="stories__item">
+          <img src="./images/stories/nature-trip.jpg" alt="" class="stories__image">
+          <h2 class="stories__title">Отдыхаю на природе</h2>
+          <time datetime="2020-09-21" class="stories__date">21.09.2020</time>
+        </article>
+    
+        <article class="stories__item">
+          <img src="./images/stories/work-project.jpg" alt="" class="stories__image">
+          <h2 class="stories__title">Заканчиваю сложный проект</h2>
+          <time datetime="2020-09-15" class="stories__date">15.09.2020</time>
+        </article>
+    
+        <article class="stories__item">
+          <img src="./images/stories/new-apartment.jpg" alt="" class="stories__image">
+          <h2 class="stories__title">Переехал в новую квартиру</h2>
+          <time datetime="2020-09-11" class="stories__date">11.09.2020</time>
+        </article>
+    
+        <article class="stories__item">
+          <img src="./images/stories/autumn.jpg" alt="" class="stories__image">
+          <h2 class="stories__title">Осень пришла!</h2>
+          <time datetime="2020-08-28" class="stories__date">28.08.2020</time>
+        </article>
+      </section>
+    
+      <section class="create-post">
+        <form class="create-post__form">
+          <input 
+            type="text" 
+            class="create-post__input" 
+            placeholder="Напишите что-нибудь"
+          >
+    
+          <div class="create-post__actions">
+            <button type="button" class="create-post__button create-post__button--photo">
+              Фото
+            </button>
+    
+            <button type="submit" class="create-post__button create-post__button--send">
+              Отправить
+            </button>
+          </div>
+        </form>
+      </section>
+    
+      <section class="posts">
+        <article class="post">
+          <p class="post__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+          </p>
+    
+          <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+        </article>
+    
+        <article class="post">
+          <img src="./images/posts/coding-tips.jpg" alt="" class="post__image">
+    
+          <div class="post__content">
+            <h2 class="post__title">Как писать код быстро и безболезненно?</h2>
+    
+            <p class="post__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+            </p>
+    
+            <div class="post__footer">
+              <div class="post__meta">
+                <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+                <span class="post__category">создание сайтов</span>
+              </div>
+    
+              <a href="#" class="post__link">Читать</a>
+            </div>
+          </div>
+        </article>
+    
+        <article class="post">
+          <div class="post__video">
+            <img src="./images/posts/new-laptop-video.jpg" alt="" class="post__image">
+            <button type="button" class="post__play">Play</button>
+          </div>
+    
+          <div class="post__content">
+            <h2 class="post__title">Купил новый ноутбук за 150 000 руб</h2>
+    
+            <div class="post__footer">
+              <div class="post__meta">
+                <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+                <span class="post__category">продвижение видео</span>
+              </div>
+    
+              <a href="#" class="post__link">Оставить комментарий</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <img src="./images/posts/frontend-conf.jpg" alt="" class="post__image">
+    
+          <div class="post__content">
+            <h2 class="post__title">Как я сходил на FrontEnd Conf 2021</h2>
+    
+            <p class="post__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+            </p>
+    
+            <div class="post__footer">
+              <div class="post__meta">
+                <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+                <span class="post__category">создание сайтов</span>
+              </div>
+    
+              <a href="#" class="post__link">Читать</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    
+      <nav class="pagination">
+        <a href="#" class="pagination__link">&lt;</a>
+        <a href="#" class="pagination__link">1</a>
+        <a href="#" class="pagination__link pagination__link--active">2</a>
+        <a href="#" class="pagination__link">3</a>
+        <a href="#" class="pagination__link">&gt;</a>
+      </nav>
+    </main>
+
+  </div>
+</body>
+</html>
