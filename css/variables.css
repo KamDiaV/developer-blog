@@ -16,5 +16,7 @@
 
   --font-main: "Roboto", sans-serif;
 
+  --sidebar-width: 300px;
+
   --transition: 0.3s ease;
 }
