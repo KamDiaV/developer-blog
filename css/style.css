@@ -280,3 +280,65 @@
   z-index: 1;
   font-size: 12px;
 }
+
+/* CREATE POST */
+
+.create-post {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.create-post__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  min-height: 74px;
+  padding: 15px 20px 15px 28px;
+  border-radius: 5px;
+
+  background-color: var(--color-post);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.45);
+}
+
+.create-post__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-text);
+  font-size: 15px;
+}
+
+.create-post__input::placeholder {
+  color: var(--color-placeholder);
+}
+
+.create-post__actions {
+  display: flex;
+  gap: 15px;
+}
+
+.create-post__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.create-post__button:hover {
+  opacity: 0.85;
+}
+
+.create-post__button--photo {
+  background-color: var(--color-light);
+}
+
+.create-post__button--send {
+  background-color: var(--color-blue);
+}
