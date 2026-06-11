@@ -152,11 +152,17 @@
     
       <section class="posts">
         <article class="post">
-          <p class="post__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
-          </p>
-    
-          <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+          <div class="post__content">
+            <p class="post__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+            </p>
+
+            <div class="post__footer">
+              <div class="post__meta">
+                <time datetime="2020-06-21" class="post__date">21.06.2020</time>
+              </div>
+            </div>
+          </div>
         </article>
     
         <article class="post">
@@ -183,7 +189,9 @@
         <article class="post">
           <div class="post__video">
             <img src="./images/posts/new-laptop-video.jpg" alt="" class="post__image">
-            <button type="button" class="post__play">Play</button>
+            <button type="button" class="post__play">
+              <img src="./images/icons/play.svg" alt="Запустить видео">
+            </button>
           </div>
     
           <div class="post__content">
