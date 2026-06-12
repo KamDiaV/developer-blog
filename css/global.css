@@ -12,3 +12,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.divider {
+  height: 1px;
+  background-color: var(--color-dark);
+}
