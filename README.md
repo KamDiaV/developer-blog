@@ -34,7 +34,7 @@ Multi-page responsive blog layout built from a Figma design.
 
 ## Live Demo
 
-https://developer-blog.vercel.app/
+https://developer-blog-mu.vercel.app
 
 ## Repository
 
