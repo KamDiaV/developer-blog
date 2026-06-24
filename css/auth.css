@@ -85,3 +85,51 @@
 .auth__link:hover::after {
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .auth {
+    width: calc(100% - 30px);
+    max-width: 280px;
+  }
+
+  .auth__title {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .auth__field {
+    margin-bottom: 22px;
+  }
+
+  .auth__input {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .auth {
+    width: calc(100% - 24px);
+    padding-top: 40px;
+  }
+
+  .auth__title {
+    margin-bottom: 32px;
+    font-size: 19px;
+  }
+
+  .auth__field {
+    margin-bottom: 20px;
+  }
+
+  .auth__button {
+    margin-bottom: 18px;
+  }
+
+  .auth__links {
+    gap: 10px;
+  }
+
+  .auth__link {
+    font-size: 11px;
+  }
+}
